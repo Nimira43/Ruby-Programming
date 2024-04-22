@@ -9,3 +9,4 @@ puts
 puts
 puts "This line \nis going \nto be \nput on \ndifferent lines"
 puts "This line \tis going \tto be \ttabbed."
+puts "This line \tis going \tto be a\t 'quote.'"
