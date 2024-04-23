@@ -28,3 +28,16 @@ print "Now using print"
 print " which is annoying because I have to include"
 print " a space either at the start or the end for "
 print "this statement to appear on one line with spaces."
+
+puts
+puts
+
+p "Hello"
+p "P prints out the quotes if it is a string"
+puts
+puts "P will help show if it is a string or a number"
+p 5
+p "5"
+
+puts "You can use \nline breaks using puts"
+p "You can include a \nline break using p - but won't work"
