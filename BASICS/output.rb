@@ -41,3 +41,13 @@ p "5"
 
 puts "You can use \nline breaks using puts"
 p "You can include a \nline break using p - but won't work"
+
+p "P helps give technical output and helps will debugging."
+puts "Puts help to format your output with \nline breaks and \ttabbing text. It also returns to a new line."
+print "Print is okay to output text but doesn't return to a new line."
+puts
+puts "Now comments..." # comment after a line of code
+
+# This is a comment - same as in Python
+
+# puts "This is valid puts statement but the # in front makes it a comment"
