@@ -51,3 +51,5 @@ puts "Now comments..." # comment after a line of code
 # This is a comment - same as in Python
 
 # puts "This is valid puts statement but the # in front makes it a comment"
+
+# Multiline Comments
