@@ -53,3 +53,11 @@ puts "Now comments..." # comment after a line of code
 # puts "This is valid puts statement but the # in front makes it a comment"
 
 # Multiline Comments
+
+=begin
+ 
+This is a multi line comment
+
+=end
+
+puts 23 + 43
