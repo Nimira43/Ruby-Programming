@@ -42,8 +42,5 @@ puts 14 % 4
 puts 14 / 4
 puts 14 / 4.0
 
-# String
-
-# Exceptions
 
 
