@@ -8,3 +8,9 @@ p greeting
 
 greeting2 = puts "Hello again!" 
 p greeting2
+
+puts "---------------"
+
+# String Interpolation
+name = "Lenny"
+puts "Hello #{name}, how are you?"
