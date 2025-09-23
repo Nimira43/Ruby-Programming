@@ -25,3 +25,10 @@ puts "---------------"
 puts "Hello what is your name?"
 name = gets.chomp
 puts "Welcome #{name}!"
+puts "What is your age?"
+age = gets.chomp
+puts "You are #{age} years old."
+
+puts "---------------"
+
+
