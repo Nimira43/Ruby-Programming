@@ -17,3 +17,6 @@ puts "Hello #{name}, how are you?"
 puts "#{greeting} #{name}, how are you?"
 number = 7
 puts "Adding the number #{number} to this sentence."
+puts "I add 5 onto #{number} which equals #{number + 5}."
+
+puts "---------------"
