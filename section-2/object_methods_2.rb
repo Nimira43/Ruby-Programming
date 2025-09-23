@@ -23,5 +23,5 @@ puts "---------------"
 
 # Gets Method
 puts "Hello what is your name?"
-name = gets
+name = gets.chomp
 puts "Welcome #{name}!"
