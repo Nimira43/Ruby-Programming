@@ -20,3 +20,8 @@ puts "Adding the number #{number} to this sentence."
 puts "I add 5 onto #{number} which equals #{number + 5}."
 
 puts "---------------"
+
+# Gets Method
+puts "Hello what is your name?"
+name = gets
+puts "Welcome #{name}!"
