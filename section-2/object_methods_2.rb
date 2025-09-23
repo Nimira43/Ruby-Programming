@@ -14,3 +14,6 @@ puts "---------------"
 # String Interpolation
 name = "Lenny"
 puts "Hello #{name}, how are you?"
+puts "#{greeting} #{name}, how are you?"
+number = 7
+puts "Adding the number #{number} to this sentence."
