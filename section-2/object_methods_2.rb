@@ -72,6 +72,11 @@ puts percentage.class
 puts percentage.to_s
 puts percentage.to_s.class
 
+puts 
+puts "5".to_s
+puts "5".to_s.class
+
+
 
 
 
