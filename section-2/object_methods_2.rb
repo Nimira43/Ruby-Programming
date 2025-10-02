@@ -32,5 +32,8 @@ puts "You are #{age} years old."
 puts "---------------"
 
 # Class Method
+# Object - an instance of the class
 
+puts "Hello!".class
+puts "Goodbye!!".class
 
