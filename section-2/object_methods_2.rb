@@ -36,4 +36,7 @@ puts "---------------"
 
 puts "Hello!".class
 puts "Goodbye!!".class
+puts 344.class
+puts 3.5454.class
+
 
