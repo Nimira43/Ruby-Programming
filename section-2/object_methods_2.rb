@@ -52,6 +52,8 @@ puts "15 apples".to_i # returns 15
 puts "apples 15".to_i # returns 0
 puts "no number".to_i # returns 0
 puts text.to_f # return float value
+puts text.to_f.class # returns float class
+
 
 
 
