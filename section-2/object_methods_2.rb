@@ -62,6 +62,16 @@ number = 5
 puts number.class
 puts number.to_s
 puts number.to_s.class
+puts number.to_f
+puts number.to_f.class
+
+puts
+
+percentage = 0.75
+puts percentage.class
+puts percentage.to_s
+puts percentage.to_s.class
+
 
 
 
