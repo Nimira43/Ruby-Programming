@@ -43,9 +43,14 @@ puts 3.5454.class
 
 text = "5"
 puts text
-puts text.class
-puts text.to_i
-puts text.class
+puts text.class # string
+puts text.to_i 
+puts text.class # text is still a string
+puts text.to_i.class # text is an integer
+
+puts "15 apples".to_i # returns 15
+puts "apples 15".to_i # returns 0
+
 
 
 
