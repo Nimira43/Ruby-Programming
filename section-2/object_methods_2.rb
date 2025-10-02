@@ -31,4 +31,6 @@ puts "You are #{age} years old."
 
 puts "---------------"
 
+# Class Method
+
 
