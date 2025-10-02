@@ -39,4 +39,13 @@ puts "Goodbye!!".class
 puts 344.class
 puts 3.5454.class
 
+# Methods to convert objects
+
+text = "5"
+puts text
+puts text.class
+puts text.to_i
+puts text.class
+
+
 
