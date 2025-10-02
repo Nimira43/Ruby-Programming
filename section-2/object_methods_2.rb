@@ -48,13 +48,20 @@ puts text.to_i  # to integer
 puts text.class # however text is still a string
 puts text.to_i.class # now text is an integer
 
+puts
+
 puts "15 apples".to_i # returns 15
 puts "apples 15".to_i # returns 0
 puts "no number".to_i # returns 0
 puts text.to_f # return float value
 puts text.to_f.class # returns float class
 
+puts
 
+number = 5
+puts number.class
+puts number.to_s
+puts number.to_s.class
 
 
 
