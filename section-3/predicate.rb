@@ -21,3 +21,6 @@ puts "McLaren".include? "x"
 # puts "McLaren".include?           # argument error - too few
 # puts "McLaren".include? "M" "a"   # argument error - too many
 puts "McLaren".include? "Lar"       # true - also "Lar" is one argument
+
+puts "McLaren".include? ("L")       # add () if you include an argument - best practise
+puts "McLaren".include? ("x") 
