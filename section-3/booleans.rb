@@ -14,6 +14,10 @@ puts
 
 cat = true
 dog = false
-
 puts cat.class
 puts dog.class
+
+puts 
+
+puts "cats" == "cats"
+puts "cats" == "Cats"
