@@ -20,4 +20,15 @@ puts dog.class
 puts 
 
 puts "cats" == "cats"
-puts "cats" == "Cats"
+puts "cats" == "Cats"     # false - case sensitive
+puts "cats" == "cats "    # false - extra space
+
+puts
+
+puts "5" == 5             # false - different type
+puts "5" == 5.to_s        # true - both strings in this comparison
+
+num1 = 5
+puts num1.to_s.class      # string
+puts num1 == "5"          # false - not in this comparison. num1 is still an integer
+ 
