@@ -52,8 +52,9 @@ puts 14 <= 6
 puts 14 > 14
 puts 14 >= 14
 puts 14 < 14
-puts 14 <= 14
+puts 14 == 14
 puts -14 > 6
 puts 14 >= -6
 puts 14 < -6
 puts -14 <= 6
+
