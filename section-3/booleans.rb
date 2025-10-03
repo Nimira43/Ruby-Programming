@@ -40,3 +40,20 @@ puts
 puts 5.class             # integer
 puts 5.0.class           # float
 puts 5 == 5.0            # true - different classes but both are numeric
+
+puts 6 != 6
+
+puts
+
+puts 14 > 6
+puts 14 >= 6
+puts 14 < 6
+puts 14 <= 6
+puts 14 > 14
+puts 14 >= 14
+puts 14 < 14
+puts 14 <= 14
+puts -14 > 6
+puts 14 >= -6
+puts 14 < -6
+puts -14 <= 6
