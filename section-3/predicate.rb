@@ -20,3 +20,4 @@ puts "McLaren".include? "L"
 puts "McLaren".include? "x"
 # puts "McLaren".include?           # argument error - too few
 # puts "McLaren".include? "M" "a"   # argument error - too many
+puts "McLaren".include? "Lar"       # true - also "Lar" is one argument
