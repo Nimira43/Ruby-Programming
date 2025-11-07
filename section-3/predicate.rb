@@ -24,5 +24,9 @@ puts "McLaren".include? "Lar"       # true - also "Lar" is one argument
 
 puts "McLaren".include? ("L")       # add () if you include an argument - best practise
 puts "McLaren".include? ("x") 
+puts
 
 # Methods with Multiple Arguments
+
+puts 20.between? 15, 25 
+puts 20.between? 25, 35 
