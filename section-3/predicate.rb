@@ -31,6 +31,9 @@ puts
 puts 20.between? 15, 25 
 puts 20.between? 25, 35 
 puts 20.between?(25, 35)   # best practise 
+puts 20.between?(10, 20)   # true
+puts 20.between?(20, 30)   # true
+
 
 puts
 
