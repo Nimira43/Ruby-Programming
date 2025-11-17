@@ -22,5 +22,10 @@ class Deck
   def to_s 
     @cards.join(",")
 
-
+  def self.new_from_cards(cards)
+    deck = Deck.allocate
+    deck.cards = cards
+    deck
+  end
+  
 end
