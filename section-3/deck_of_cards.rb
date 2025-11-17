@@ -27,6 +27,11 @@ class Deck
     File.write(filename, to_s)
   end
 
+  def self.load_from_file(filename)
+    content = File.read(filename)
+    Deck.new_from_cards(content.split(","))
+  end
+
   def self.new_from_cards(cards)
     deck = Deck.allocate
     deck.cards = cards
