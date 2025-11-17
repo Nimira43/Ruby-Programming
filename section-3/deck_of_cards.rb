@@ -1,7 +1,7 @@
 class Deck
   attr_accessor :cards
 
-  def initialise
+  def initialize
     @cards = []
     suits = ["Spades", "Diamonds", "Hearts", "Clubs"]
     values = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"]
@@ -22,6 +22,7 @@ class Deck
   def deal(hand_size) 
     hand = @cards.shift(hand_size)
     [hand, @cards]
+  end
 
   def to_s 
     @cards.join(",")
