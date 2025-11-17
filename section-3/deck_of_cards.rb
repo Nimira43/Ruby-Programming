@@ -19,6 +19,10 @@ class Deck
     end
   end
 
+  def deal(hand_size) 
+    hand = @cards.shift(hand_size)
+    [hand, @cards]
+
   def to_s 
     @cards.join(",")
   end
