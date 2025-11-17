@@ -46,3 +46,5 @@ class Deck
     @cards.shuffle!
   end
 end
+
+deck = Deck.new
