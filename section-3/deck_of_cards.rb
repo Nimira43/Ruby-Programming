@@ -19,6 +19,8 @@ class Deck
     end
   end
 
+  def to_s 
+    @cards.join(",")
 
-  
+
 end
