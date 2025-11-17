@@ -21,11 +21,16 @@ class Deck
 
   def to_s 
     @cards.join(",")
+  end
+
+  def save_to_file(filename)
+    File.write(filename, to_s)
+  end
 
   def self.new_from_cards(cards)
     deck = Deck.allocate
     deck.cards = cards
     deck
   end
-  
+
 end
