@@ -12,4 +12,13 @@ class Deck
       end
     end
   end
+
+  def print
+    @cards.each_with_index do |card, i|
+      puts "#{i}: #{card}"
+    end
+  end
+
+
+  
 end
