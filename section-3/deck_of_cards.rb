@@ -48,3 +48,5 @@ class Deck
 end
 
 deck = Deck.new
+deck.shuffle
+deck.print
